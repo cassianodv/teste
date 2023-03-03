@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+margin: 0px;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins" , sans-serif
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #c1ac9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 85%;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0 );
+
+}
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .content .left-size {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+.content .left-size::before{
+    content:'';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-170px);
+    background-color: black;
+}
+.content .left-size .details {
+    margin: 14px;
+    text-align: center;
+
+}
+.content .left-size .details .topic {
+
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.container .left-size .details .text-one,
+.container .left-size .details .text-two {
+
+    font-size: 14px;
+    color: #1ea134;
+}
+.container .content .rigth-size {
+width: 75%;
+margin-left: 75px;
+
+}
+.content .rigth-size .topic-text {
+
+    font-size: 23px;
+    font-weight: 600;
+    color: #1ea134;
+}
+.rigth-size .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 12px 0;
+}
+.rigth-size .input-box input,
+.rigth-size .input-box textarea{
+   
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        background-color: #f0f1f8;
+       border-radius: 6px;
+       padding: 0 15px;
+       resize: none;
+}
+
+.rigth-size .message-box {
+min-height: 6px;
+}
+.rigth-size .input-box textarea{
+padding-top: 6px;
+}
+
+.button{
+    height: 30px;
+    width: 60px;
+    transform: .8s;
+    background-color: black;
+    color: #fff;
+}
+.button:hover {
+    background-color:#1ea134;
+    color:black ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#local
+{
+    width: 30px;
+    height: 30px;
+    
+}
+#telefone
+{
+    width: 30px;
+    height: 30px;
+    
+}
+#email 
+{
+    width: 30px;
+    height: 30px;
+    
+}
+
+       
